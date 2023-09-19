@@ -1,27 +1,27 @@
-POST http://localhost:3333/videos
+POST https://node-do-zero-ds6u.onrender.com/videos
 Content-Type: application/json
 
 {
-    "title": "Vídeo 01",
-    "description": "Esse é o primeiro vídeo",
+    "title": "Vídeo 02",
+    "description": "Esse é o segundo vídeo",
     "duration": 180 
 }
 
 ### // Isso é um divisor de rotas
 
-GET http://localhost:3333/videos
+GET https://node-do-zero-ds6u.onrender.com/videos
 
 ###
 
-PUT http://localhost:3333/videos/c10ba024-64ee-498b-9906-bc188f1f54af
+PUT https://node-do-zero-ds6u.onrender.com/videos/5bff4d76-85cd-4b2c-9369-83f11fd348b9
 Content-Type: application/json
 
 {
     "title": "Vídeo 02",
-    "description": "Esse é o primeiro vídeo",
-    "duration": 180 
+    "description": "Esse é o segundo vídeo",
+    "duration": 185
 }
 
 ###
 
-DELETE http://localhost:3333/videos/c10ba024-64ee-498b-9906-bc188f1f54af
+DELETE https://node-do-zero-ds6u.onrender.com/videos/8dd4c07b-01b5-4875-9e32-29ae74b8772b
