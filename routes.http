@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "Vídeo 01",
+    "description": "Esse é o primeiro vídeo",
+    "duration": 180 
+}
+
+### // Isso é um divisor de rotas
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/c10ba024-64ee-498b-9906-bc188f1f54af
+Content-Type: application/json
+
+{
+    "title": "Vídeo 02",
+    "description": "Esse é o primeiro vídeo",
+    "duration": 180 
+}
+
+###
+
+DELETE http://localhost:3333/videos/c10ba024-64ee-498b-9906-bc188f1f54af

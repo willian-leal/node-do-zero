@@ -1,0 +1,14 @@
+Quando instalamos o Node na nossa máquina, existem vários módulos(funcionalidades) que o Node trás por padrão.
+Por exemplo, manipulação de arquivo, criar arquivo, ler arquivo e por aí vai, nós podemos usar o 'node:fs(file system)'.
+Caso que eu queira trabalhar com criptografia eu posso usar o 'node: crypto'.
+Caso eu queira trabalhar com criação de servidores http eu posso usar 'node:http'.
+
+"createServer" é uma das funções disponíveis em 'node:http'.
+
+"createServer" é uma função que pode receber dois parâmetros, request e response
+Request irá buscar os dados de um usuário por exemplo.
+Response devolve uma resposta pra chamada da api
+
+Server.listen() é usado para definir a porta que será usada para rodar o Node.
+
+Fastify é um 
