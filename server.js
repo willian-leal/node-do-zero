@@ -1,14 +1,3 @@
-// Criando um servidor a partir do das funções do Node
-// import { createServer } from "node:http";
-
-// const server = createServer((request, response) => {
-//   response.write("Hello World");
-
-//   return response.end();
-// });
-
-// Criando um servidor usando Fastfy
-
 import { fastify } from "fastify";
 import { DatabasePostgres } from "./database-postgres.js";
 
