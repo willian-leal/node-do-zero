@@ -1,4 +1,4 @@
-# node-do-zero
+# Node-do-zero
 
 Node-do-zero é uma aplicação 100% Node que fiz para treinar meus conhecimentos com a linguagem
 
